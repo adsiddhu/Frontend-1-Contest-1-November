@@ -11,86 +11,103 @@
 
 <body>
     <div class="navbar">
-        <div class="startup">Startup</div>
+        <div class="startup">Start<span>up</span></div>
         <div class="home">
-            <li><a>Home</a></li>
-            <li><a>About us</a></li>
-            <li><a>Contact us</a></li>
-            <li><a>Login</a></li>
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#contact-us">Contact us</a>
+            <a href="#login">Login</a>
         </div>
     </div>
 
     <div class="landingPage">
         <div class="landingPage-text">
-          <h1>Startup Landing Page</h1>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+            <div>
+                <h1>Startup Landing Page</h1>
+            </div>
+
+            <div class="txt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+            </div>
+
+            <button class="btn" id="login">Login</button>
         </div>
 
         <div class="landingPage-img">
-            <img src="jeff_1.png" alt="jeff1">
+            <img src="jeff 1.svg" alt="jeff1">
         </div>
     </div>
 
-    Contact Us
-
-    <form method="post">
+    <p class="contact-us" id="contact-us">Contact Us</p>
+    <form action="" method="post">
         <input type="text" placeholder="Name">
-        <input type="text" placeholder="Email">
-        <input type="text" placeholder="Mobile Number">
-        <input type="text" placeholder="City">
-        <input type="submit">
+        <input type="email" name="" id="" placeholder="Email">
+
+        <div>
+            <input type="text" name="" id="" placeholder="Mobile Number">
+            <input type="text" name="" id="" placeholder="City">
+        </div>
+
+        <div class="contact-us-btn">
+            <button class="btn">Submit Form</button>
+        </div>
     </form>
 
-    <table>
-        <thead>
-            <th>SNO.</th>
-            <th>Startup Name</th>
-            <th>Startup Description</th>
-        </thead>
+    <div class="table">
+        <table>
+            
+           <tr>
+            <th>1.</th>
+            <th>WowIndia</th>
+            <th>A startup with WOW Ideas.</th>
+           </tr>
 
-        <tr>
-            <td>1.</td>
-            <td>Loreum Ipsum</td>
-            <td>Loreum Ipsum Text</td>
-        </tr>
-
-        <tr>
+           <tr>
             <td>2.</td>
             <td>Loreum Ipsum</td>
-            <td>Loreum Ipsum Text</td>
-        </tr>
+            <td>Loreum Ipsum Text.</td>
+           </tr>
 
-        <tr>
+           <tr>
             <td>2.</td>
             <td>Loreum Ipsum</td>
-            <td>Loreum Ipsum Text</td>
-        </tr>
+            <td>Loreum Ipsum Text.</td>
+           </tr>
 
-        <tr>
+           <tr>
             <td>2.</td>
             <td>Loreum Ipsum</td>
-            <td>Loreum Ipsum Text</td>
-        </tr>
+            <td>Loreum Ipsum Text.</td>
+           </tr>
 
-        <tr>
+           <tr>
             <td>2.</td>
             <td>Loreum Ipsum</td>
-            <td>Loreum Ipsum Text</td>
-        </tr>
+            <td>Loreum Ipsum Text.</td>
+           </tr>
 
-        <tr>
+           <tr>
             <td>2.</td>
             <td>Loreum Ipsum</td>
-            <td>Loreum Ipsum Text</td>
-        </tr>
+            <td>Loreum Ipsum Text.</td>
+           </tr>
 
-        <tr style="background-color:rgb(252, 177, 3);">
-            <td>00.</td>
-            <td>Final Footer</td>
-            <td>Loreum Ipsum Text</td>
-        </tr>
+            <tfoot>
+                <tr>
+                    <td>00.</td>
+                    <td>Final Footer</td>
+                    <td>Loreum Ipsum Text</td>
+                </tr>
+            </tfoot>
+            </tbody>
+        </table>
+    </div>
 
-    </table>
 </body>
 
 </html>
